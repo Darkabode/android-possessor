@@ -1,0 +1,21 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+
+    defaultConfig {
+        applicationId "com.zer0.possessor"
+        minSdkVersion 14
+        targetSdkVersion 25
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles 'proguard-android.txt', 'proguard-project.txt'
+        }
+    }
+}
+dependencies {
+    implementation project(':tasker')
+    implementation project(':stealer')
+}

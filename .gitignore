@@ -1,0 +1,8 @@
+/.gradle
+
+/build
+/app/build
+/stealer/build
+tasker/build
+
+/.idea

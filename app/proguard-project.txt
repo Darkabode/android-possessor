@@ -1,0 +1,2 @@
+-keep class com.zer0.possessor.ExposedJsApi { *; }
+-dontwarn android.webkit.*
